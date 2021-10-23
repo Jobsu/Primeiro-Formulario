@@ -1,57 +1,116 @@
-<!DOCTYPE html>
-<html lang="pt-br">
-  <head>
-    <meta charset="UTF-8" />
-    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <link rel="stylesheet" href="/style.css" />
-    <link rel="preconnect" href="https://fonts.googleapis.com" />
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
-    <link
-      href="https://fonts.googleapis.com/css2?family=Festive&display=swap"
-      rel="stylesheet"
-    />
-    <link rel="preconnect" href="https://fonts.googleapis.com" />
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
-    <link
-      href="https://fonts.googleapis.com/css2?family=Festive&family=Open+Sans+Condensed:wght@300&display=swap"
-      rel="stylesheet"
-    />
-    <link rel="preconnect" href="https://fonts.googleapis.com">
-<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-<link href="https://fonts.googleapis.com/css2?family=Zilla+Slab:wght@500&display=swap" rel="stylesheet">
-    <title>Formulário</title>
-  </head>
-  <body>
-    <div class="container">
-      <div class="box">
-        <form action="">
-          <p></p>
+.container {
+  width: 100vw;
+  height: 100vh;
+  background-image: linear-gradient(304deg, #cb6892, #9ccdc9, #35c6ac, #e4b1ca);
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+}
 
-          <h2>Login</h2>
+.login {
+  font-family: "Zilla Slab", serif;
+  font-size: 15px;
+  color: black;
+  height: 35px;
+  width: 250px;
+  margin: 15px;
+  border-radius: 1px;
+  border: solid black;
+  border-width: 0px 0px 1px 0px;
+  background-color: transparent;
+}
 
-          <hr />
+.password {
+  font-family: "Zilla Slab", serif;
+  font-size: 15px;
+  color: black;
+  height: 35px;
+  width: 250px;
+  margin: 15px;
+  border-radius: 1px;
+  border: 1px;
+  border: solid black;
+  border-width: 0px 0px 1px 0px;
+  background-color: transparent;
+}
 
-          <input class="login" type="text" placeholder="  e-mail" />
+.button {
+  font-family: "Zilla Slab", serif;
+  font-size: 20px;
+  color: black;
+  border: 2px solid transparent;
+  border-image: linear-gradient(0deg, #bff5b7e0, #08eecf, #f6054f, #0edde4);
+  border-image-slice: 1;
+  background-color: white;
+  width: 254px;
+  height: 40px;
+  margin: 15px;
+  display: flex;
+  text-align: center;
+  margin-left: 36.5px;
+  justify-content: center;
+  cursor: pointer;
+}
 
-          <div class="box2">
-            <img id="icon1" src="/arquivos/email icon.png" alt="login icon" />
-            <img
-              id="icon2"
-              src="/arquivos/locked-padlock.png"
-              alt="lock icon"
-            />
-          </div>
+h2 {
+  font-family: "Festive", cursive;
+  font-size: 50px;
+  margin: 15px;
+  margin-left: 100px;
+  color: black;
+}
 
-          <input class="password" type="password" placeholder="  senha" />
+.box {
+  width: 330px;
+  height: 380px;
+  background: #fff;
+  border-radius: 10px;
+  box-shadow: 0.5px 1px 7px #090c55;
+}
 
-          <hr />
+body {
+  margin: 0px;
+}
 
-          <input class="button" type="submit" name="" id="" value="Entrar" />
+p {
+  margin-left: 63px;
+  font-size: 14px;
+  font-family: "Segoe UI", Tahoma, Times, serif;
+  color: gray;
+}
 
-          <p><a href="">Crie uma conta</a> | <a href="">Esqueci a senha</a></p>
-        </form>
-      </div>
-    </div>
-  </body>
-</html>
+a {
+  text-decoration: none;
+  color: inherit;
+}
+
+hr {
+  height: 1px;
+  background-image: linear-gradient(304deg, #cb6892, #9ccdc9, #35c6ac, #e4b1ca);
+}
+
+.box2 {
+  width: 10%;
+  float: right;
+}
+
+#icon1 {
+  width: 30px;
+  margin-top: 20px;
+  float: right;
+  margin-right: 15px;
+}
+
+#icon2 {
+  width: 25px;
+  margin-top: 39px;
+  float: right;
+  margin-right: 15px;
+}
+
+button :hover {
+  transition: 1s;
+  background-color: black;
+  color: 1s;
+}
