@@ -109,8 +109,23 @@ hr {
   margin-right: 15px;
 }
 
-button :hover {
-  transition: 1s;
+.button:hover {
   background-color: black;
-  color: 1s;
+  color: white;
+  transition: 0.5s;
+  border: transparent;
+  border-radius: 10px;
 }
+
+.link1:hover {
+  transition: 0.5s;
+  font-size: 17px;
+  color: black;
+}
+
+.link2:hover {
+  transition: 0.5s;
+  font-size: 17px;
+  color: black;
+}
+
